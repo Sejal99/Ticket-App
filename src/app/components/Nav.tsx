@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 const Nav = () => {
@@ -7,7 +8,7 @@ const Nav = () => {
         <div className="flex flex-row gap-4">
           <h1>Home</h1>
       
-              <h1>Create Ticket</h1>
+          <Link href="/ticket">Create Ticket</Link>
           
         </div>
         <div>
